@@ -368,10 +368,15 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_k7tn/com.android.nfc_extras.xml
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
-PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_PACKAGES += \
+    SettingsProvider2201117TGOverlay \
+    SettingsProvider2201117TIOverlay \
+    SettingsProvider2201117TYOverlay \
+    SpesCarrierConfigOverlay \
+    SpesFrameworksOverlay \
+    SpesSettingsOverlay \ 
+    SpesSystemUIOverlay \
+    SpesWifiOverlay
 
 # Power
 PRODUCT_PACKAGES += \
