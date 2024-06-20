@@ -21,6 +21,9 @@ $(call inherit-product-if-exists, vendor/prebuilt-apps/config.mk)
 # Camera
 $(call inherit-product-if-exists, vendor/miuicamera/config.mk)
 
+# Build Signing
+$(call inherit-product-if-exists, vendor/pugzarecute/signingkeys/keys.mk)
+
 # Product Specifics
 PRODUCT_NAME := aosp_spes
 PRODUCT_DEVICE := spes
