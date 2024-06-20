@@ -374,7 +374,7 @@ PRODUCT_PACKAGES += \
     SettingsProvider2201117TYOverlay \
     SpesCarrierConfigOverlay \
     SpesFrameworksOverlay \
-    SpesSettingsOverlay \ 
+    SpesSettingsOverlay \
     SpesSystemUIOverlay \
     SpesWifiOverlay
 
