@@ -521,3 +521,12 @@ PRODUCT_PACKAGES += \
 # No Cutout Overlay
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
+
+# Missing libs
+PRODUCT_PACKAGES += \
+    libsqlite.vendor \
+    libjsoncpp.vendor \
+    libprocessgroup.vendor \
+    libpng.vendor \
+    libcurl.vendor \
+    libutilscallstack.vendor
