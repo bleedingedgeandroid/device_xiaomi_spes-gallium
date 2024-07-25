@@ -5,9 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_spes.mk
-
-COMMON_LUNCH_CHOICES := \
-    blaze_spes-user \
-    blaze_spes-userdebug \
-    blaze_spes-eng
+    $(LOCAL_DIR)/bliss_spes.mk
